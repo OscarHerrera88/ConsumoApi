@@ -23,8 +23,8 @@ api_pokemon.then(res => res.json())
                             cartas.innerHTML += `
 
                         <div class="card-group">
-                            <div class="card w-75 h-100 ">
-                            <img src="${data2.sprites.other.dream_world.front_default}" class=" w-100   card-img-top-50  p-3  m-3 " with= alt="...">
+                            <div class="card ">
+                            <img src="${data2.sprites.other.dream_world.front_default}" class=" mt-4 w-50 align-items-center  card-img-top-50  " with= alt="...">
                             <div class="card-body">
                                 <h5 class="nombre card-title text-light bg-primary opacity-75 text-center text-uppercase"> ${data2.name}</h5>
                                 <p class="card-text lang">${data3.effect_entries[1].effect}</p>

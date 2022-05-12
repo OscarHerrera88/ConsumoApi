@@ -1,9 +1,7 @@
 .card{
-    width: 100px;
-    height: 100px;
-    justify-content: center;
+    width: 400px;
+    height: 420px;
+    align-items: center;
 }
-.foto{
-    padding: 20px;
-}
+
 
